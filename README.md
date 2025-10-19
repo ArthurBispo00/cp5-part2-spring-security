@@ -10,8 +10,8 @@
 ## Links do Projeto
 
 * **Link do Repositório GitHub:** `https://github.com/ArthurBispo00/cp5-part2-spring-security`
-* **Link do Deploy:** `[COLE AQUI O LINK DO SEU DEPLOY NO RENDER]`
-* **Plataforma de Deploy:** `Render.com`
+* **Link do Deploy:** `[AINDA VAMOS FAZER]`
+* **Plataforma de Deploy:** `Render.com` (planejado)
 
 ---
 
@@ -71,7 +71,16 @@ A aplicação implementa 2 níveis de acesso, conforme solicitado:
 
 O administrador tem acesso ao formulário para criar e editar produtos, que são persistidos no banco de dados.
 
-**Formulário de Produto (`/produtos/novo`):**
+
+### 5. Exemplos de Produtos no Sistema
+
+Abaixo, alguns exemplos de produtos que podem ser gerenciados pelo sistema:
+
+| Nome | Descrição | Preço | Estoque |
+| :--- | :--- | :--- | :--- |
+| **Banana Prata (Unidade)** | Banana prata fresca, ideal para um lanche rápido. | R$ 0,89 | 200 |
+| **Água Mineral s/ Gás 500ml** | Garrafa de água mineral sem gás, marca Crystal. | R$ 2,50 | 120 |
+| **Detergente Líquido Neutro 500ml**| Detergente Ypê Neutro, alto poder desengordurante. | R$ 3,99 | 75 |
 
 ---
 
