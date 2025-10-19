@@ -6,7 +6,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Entity
-@Table(name = "TDS_SEC_MVC_TB_PAPEL") // Tabela para os papéis (roles)
+@Table(name = "TDS_SEC_MVC_TB_PAPEL")
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
@@ -18,5 +18,5 @@ public class Papel {
     private Long id;
 
     @Column(name = "nm_papel", nullable = false, unique = true)
-    private String nome; // Ex: "ROLE_ADMIN", "ROLE_USER"
+    private String nome;
 }

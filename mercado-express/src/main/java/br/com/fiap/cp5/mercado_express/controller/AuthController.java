@@ -55,10 +55,9 @@ public class AuthController {
         usuario.setSenha(passwordEncoder.encode(usuario.getSenha()));
 
         // 2. Definir o papel padrão (ROLE_USER) para o novo usuário
-        // (O papel "ROLE_USER" deve existir no banco)
         Papel papelUser = papelRepository.findByNome("ROLE_USER");
         if (papelUser == null) {
-            // Se não existir, cria e salva
+
             papelUser = new Papel();
             papelUser.setNome("ROLE_USER");
             papelRepository.save(papelUser);
