@@ -1,0 +1,29 @@
+# Configuração do Servidor
+server:
+  port: 8080 # Define a porta em que a aplicação vai rodar
+
+# Configuração do Spring
+spring:
+  # Configuração do Banco de Dados (DataSource)
+  datasource:
+    # URL de conexão JDBC para o PostgreSQL
+    # (localhost:5432 é o padrão. Mude a porta se a sua for diferente)
+    url: jdbc:postgresql://localhost:5432/mercado_express_db
+    # Seu nome de usuário do PostgreSQL (o padrão é 'postgres')
+    username: postgres
+    # Sua senha do PostgreSQL (troque pela senha que você definiu na instalação)
+    password: 12345678
+  
+  # Configuração do JPA (Java Persistence API)
+  jpa:
+    # Mostra no console o SQL que o Spring está executando. Ótimo para debug!
+    show-sql: true
+    # Formata o SQL mostrado no console para ficar mais legível
+    properties:
+      hibernate:
+        format_sql: true
+    # Configuração do DDL (Data Definition Language)
+    # 'update': O Spring vai criar/atualizar as tabelas automaticamente
+    #           baseado nas suas classes Java (@Entity).
+    hibernate:
+      ddl-auto: update
