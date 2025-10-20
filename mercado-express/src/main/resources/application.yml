@@ -1,28 +1,28 @@
-# ConfiguraÁ„o do Servidor
+# Configura√ß√£o do Servidor
 server:
-  port: 8080 # Define a porta em que a aplicaÁ„o vai rodar
+  port: 8080 # Define a porta em que a aplica√ß√£o vai rodar
 
-# ConfiguraÁ„o do Spring
+# Configura√ß√£o do Spring
 spring:
-  # ConfiguraÁ„o do Banco de Dados (DataSource)
+  # Configura√ß√£o do Banco de Dados (DataSource)
   datasource:
-    # URL de conex„o JDBC para o PostgreSQL
-    # (localhost:5432 È o padr„o. Mude a porta se a sua for diferente)
+    # URL de conex√£o JDBC para o PostgreSQL
+    # (localhost:5432 √© o padr√£o. Mude a porta se a sua for diferente)
     url: jdbc:postgresql://localhost:5432/mercado_express_db
-    # Seu nome de usu·rio do PostgreSQL (o padr„o È 'postgres')
+    # Seu nome de usu√°rio do PostgreSQL (o padr√£o √© 'postgres')
     username: postgres
-    # Sua senha do PostgreSQL (troque pela senha que vocÍ definiu na instalaÁ„o)
+    # Sua senha do PostgreSQL (troque pela senha que voc√™ definiu na instala√ß√£o)
     password: 12345678
   
-  # ConfiguraÁ„o do JPA (Java Persistence API)
+  # Configura√ß√£o do JPA (Java Persistence API)
   jpa:
-    # Mostra no console o SQL que o Spring est· executando. ”timo para debug!
+    # Mostra no console o SQL que o Spring est√° executando. √ìtimo para debug!
     show-sql: true
-    # Formata o SQL mostrado no console para ficar mais legÌvel
+    # Formata o SQL mostrado no console para ficar mais leg√≠vel
     properties:
       hibernate:
         format_sql: true
-    # ConfiguraÁ„o do DDL (Data Definition Language)
+    # Configura√ß√£o do DDL (Data Definition Language)
     # 'update': O Spring vai criar/atualizar as tabelas automaticamente
     #           baseado nas suas classes Java (@Entity).
     hibernate:
