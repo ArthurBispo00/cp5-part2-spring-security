@@ -10,7 +10,7 @@
 ## Links do Projeto
 
 * **Link do Repositório GitHub:** `https://github.com/ArthurBispo00/cp5-part2-spring-security`
-* **Link do Deploy:** `[AINDA VAMOS FAZER]`
+* **Link do Deploy:** `https://mercado-express-app.onrender.com/`
 * **Plataforma de Deploy:** `Render.com` (planejado)
 
 ---
